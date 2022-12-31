@@ -1,0 +1,119 @@
+body {
+  background-color: #f5f4fa;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-webstudio:hover,
+.header-webstudio:focus {
+  font-family: 'Raleway', sans-serif;
+  color: #2196f3;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.header-text:hover,
+.header-text:focus {
+  background-color: #2196f3;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.heroes {
+  background-color: #2f303a;
+}
+
+.heroes-title {
+  color: white;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.heroes-button:hover,
+.heroes-button:focus {
+  background-color: #2196f3;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.indicators-title {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.indicators-text {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.dedicate-our-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+
+.name-employee {
+  color: #212121;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.function-employee {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+footer {
+  color: white;
+  background-color: #2f303a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.a-footer:hover,
+.a-footer:focus {
+  background-color: #2196f3;
+  color: #ffffff99;
+}
+
+.p-footer:hover,
+.p-footer:focus {
+  background-color: #2196f3;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
