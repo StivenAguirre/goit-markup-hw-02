@@ -10,18 +10,20 @@ ul {
   list-style: none;
 }
 
-a:link {
-  text-decoration: none;
-}
-a:visited {
+a {
   text-decoration: none;
 }
 
+a {
+  color: black;
+}
+
 .header-webstudio {
+  color: #2196f3;
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 31px;
+  line-height: 1;
   letter-spacing: 0.03em;
   text-align: left;
 }
@@ -31,9 +33,17 @@ a:visited {
   color: #2196f3;
   font-size: 14px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.7;
   letter-spacing: 0.02em;
   text-align: left;
+}
+
+.header-text:active {
+  color: #2196f3;
+}
+
+.a-header-text {
+  color: #757575;
 }
 
 .a-header-text:hover,
@@ -41,8 +51,80 @@ a:visited {
   color: #2196f3;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.7;
   letter-spacing: 0.02em;
+}
+
+.a-header-text:active {
+  color: #2196f3;
+}
+
+.heroes {
+  background-color: #2f303a;
+}
+
+.heroes-title {
+  color: white;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.heroes-button:hover,
+.heroes-button:focus {
+  background-color: #2196f3;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.indicators-title {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.indicators-text {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.dedicate-our-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+.name-employee {
+  color: #212121;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.function-employee {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .filter-briefcase:hover,
@@ -52,7 +134,7 @@ a:visited {
   color: white;
   font-size: 16px;
   font-weight: 500;
-  line-height: 26px;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   text-align: center;
 }
@@ -61,7 +143,7 @@ a:visited {
   cursor: pointer;
   font-size: 18px;
   font-weight: 700;
-  line-height: 36px;
+  line-height: 1.2;
   letter-spacing: 0.06em;
   text-align: left;
 }
@@ -70,7 +152,7 @@ a:visited {
   cursor: pointer;
   color: #757575;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   text-align: left;
 }
@@ -80,26 +162,34 @@ footer {
   background-color: #2f303a;
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   text-align: left;
 }
 
+.a-footer {
+  color: #757575;
+  font-style: normal;
+}
+
 .a-footer:hover,
 .a-footer:focus {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
   color: #2196f3;
-  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+}
+
+.a-footer:active {
+  color: #2196f3;
 }
 
 .p-footer {
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   margin-left: 40px;
 }
