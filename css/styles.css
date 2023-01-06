@@ -3,7 +3,6 @@ body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
   color: #212121;
-  background-color: #e5e5e5;
 }
 
 ul {
@@ -26,6 +25,10 @@ a {
   line-height: 1;
   letter-spacing: 0.03em;
   text-align: left;
+}
+
+.header-text {
+  color: #212121;
 }
 
 .header-text:hover,
@@ -73,8 +76,7 @@ a {
   padding-top: 30px;
 }
 
-.heroes-button:hover,
-.heroes-button:focus {
+.heroes-button {
   background-color: #2196f3;
   color: white;
   font-size: 16px;
@@ -127,6 +129,10 @@ a {
   text-align: center;
 }
 
+.filter-briefcase {
+  padding: 6px 18px 6px 17px;
+}
+
 .filter-briefcase:hover,
 .filter-briefcase:focus {
   background: #2196f3;
@@ -168,17 +174,16 @@ footer {
 }
 
 .a-footer {
-  color: #757575;
+  color: rgba(255, 255, 255, 0.6);
   font-style: normal;
 }
 
 .a-footer:hover,
 .a-footer:focus {
-  color: #2196f3;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
 }
 
 .a-footer:active {
