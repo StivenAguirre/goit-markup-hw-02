@@ -41,10 +41,6 @@ a {
   text-align: left;
 }
 
-.header-text:active {
-  color: #2196f3;
-}
-
 .a-header-text {
   color: #757575;
   font-weight: 500;
