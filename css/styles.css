@@ -27,18 +27,16 @@ a {
   text-align: left;
 }
 
-.header-text {
-  color: #212121;
-}
-
 .header-text:hover,
 .header-text:focus {
   color: #2196f3;
+}
+
+.header-text {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.7;
   letter-spacing: 0.02em;
-  text-align: left;
 }
 
 .a-header-text {
@@ -51,10 +49,6 @@ a {
 
 .a-header-text:hover,
 .a-header-text:focus {
-  color: #2196f3;
-}
-
-.a-header-text:active {
   color: #2196f3;
 }
 
@@ -135,8 +129,11 @@ a {
 .filter-briefcase:hover,
 .filter-briefcase:focus {
   background: #2196f3;
-  border-radius: 4px;
   color: white;
+}
+
+.filter-briefcase {
+  border-radius: 4px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -209,22 +206,22 @@ footer {
   text-align: left;
 }
 
-.a-footer {
-  color: #757575;
-  font-style: normal;
-}
-
 .a-footer:hover,
 .a-footer:focus {
   color: #2196f3;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.02em;
 }
 
 .a-footer:active {
   color: #2196f3;
+}
+
+.a-footer {
+  color: #757575;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
 }
 
 .p-footer {
